@@ -1,0 +1,94 @@
+.main{
+    min-height:40vh;
+    //border:1px solid blue;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    //justify-content: center;
+    text-align: center;
+    //border:1px solid red;
+    margin-bottom: 2rem;
+}
+.teamTitle{
+        //font-size:3rem;
+        font-weight:700;
+        margin-top:2rem;
+        color:#014f86;
+    }
+.teamDescription{
+    //font-size:22px;
+    padding:15px 0px;
+    width:50%;
+    margin-bottom: 2rem;
+
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+    gap:2rem;
+   // border:1px solid purple;
+    padding:20px 0px;
+    width:100%;
+}
+.doctorContainer{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    border:1px solid #1e89b8;
+    border-radius:14px;
+    padding:20px;
+
+}
+.doctorContainer:hover{
+    border:3px solid #014f86;
+}
+.doctorImage{
+    border-radius:50%;
+    width: 150px; /* Set the width and height to the same value */
+    height: 150px;
+    object-fit: cover; 
+}
+.doctocInfo{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    align-items:center;
+    justify-content: center;
+
+}
+.doctorInfo h3{
+font-weight: bold;
+font-size:1.6rem;
+padding:10px 0px;
+}
+.doctorInfo h6{
+    color:#1e89b8;
+    font-weight:bold;
+    padding-bottom:5px;
+    font-size:1.2rem;
+}
+.doctorIcon{
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    padding:10px 0px;
+    //border:1px solid red;
+}
+.Icon{
+    border-radius: 50%;
+    background-color:#014f86;
+}
+.Icon:hover{
+background-color: #468FaF;
+}
+.doctorIcon svg{
+    color:white;
+    font-size:2.5rem;
+   
+   padding:12px;
+}

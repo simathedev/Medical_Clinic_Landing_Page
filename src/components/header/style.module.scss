@@ -1,0 +1,83 @@
+.main{
+    width:100%;
+    //border:2px solid orange;
+    background-color: #013a63;
+    color:white;
+   // top:0;
+
+.header{
+    padding: 20px;
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 4;
+   // border:1px solid red;
+
+    .button{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: #455CE9;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 4;
+    }
+
+    .burger{
+        width: 100%;
+        &::after, &::before{
+            content: "";
+            display: block;
+            height: 1px;
+            width: 40%;
+            margin: auto;
+            background-color: white;
+            position: relative;
+            transition: transform 0.3s;
+        }
+
+        &::after{
+            top: -5px;
+        }
+
+        &::before{
+            top: 5px;
+        }
+    }
+
+    .burgerActive{
+
+        &::after{
+            transform: rotate(45deg);
+            top: -1px;
+        }
+
+        &::before{
+            transform: rotate(-45deg);
+            top: 0px;
+        }
+        
+    }
+}
+}
+
+.linkContainer{
+    display:flex;
+    gap:4rem;
+    padding:20px;
+    //border:1px solid red;
+    justify-content: space-between;
+}
+.linkContainer h1{
+    font-size:1.7rem;
+    font-weight: bold;
+}
+.headerLinks a{
+    margin-right:1.2rem;
+}
+.headerLinks a:hover{
+   color:rgb(255, 255, 255);
+   font-weight:bold;
+}

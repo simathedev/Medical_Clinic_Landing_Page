@@ -1,0 +1,47 @@
+.main{
+   // border:1px solid red;
+    justify-content: space-around;
+    min-height:22vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.menuContainer{
+    //border:1px solid blue;
+   // margin-left:1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    //border:1px solid red;
+}
+.itemContainer{
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+ //  border:1px solid;
+   //padding:10px 15px;
+ 
+  // background-color: white;
+}
+.itemContainerMain{
+    padding:10px 15px;
+    border-radius:10px;
+    border:1px solid #014f86;
+}
+.itemContainerMain:hover{
+    border:3px solid #014f86;
+    padding:10px 15px;
+}
+
+.itemContainer h3{
+   
+   // padding:4px 0px;
+    font-weight:bold;
+    color:#014f86;
+}
+.itemContainer svg{
+   font-size: 1.6rem;
+    color:#014f86;
+}
