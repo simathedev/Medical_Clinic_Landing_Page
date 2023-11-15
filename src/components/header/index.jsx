@@ -10,9 +10,9 @@ export default function Home() {
   const [isActive, setIsActive] = useState(false);
   const pathname = usePathname();
 
-  useEffect( () => {
-    if(isActive) setIsActive(false)
-  }, [pathname])
+  useEffect(() => {
+    if (isActive) setIsActive(false);
+  }, [pathname, isActive]);
 const headerLinks=[
   {
     title:'About',
