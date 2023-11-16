@@ -1,36 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js 14 Clinic/Hospital Landing Page
+This project is a Next.js 14 application created for a clinic/hospital landing page, demonstrating versatility in development across various fields. It utilizes Framer Motion for animations, Sass for styling, and Tailwind CSS for consistent and responsive design.
 
-## Getting Started
+## Overview
+This application showcases a landing page design for a clinic/hospital. It's a work in progress, aimed at demonstrating development skills and creating a consistent theme throughout the interface.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Features
+* Framer Motion Animations: Engaging and interactive elements powered by Framer Motion.
+* Sass Styling: Custom styling using Sass for a personalized touch.
+* Tailwind CSS: Consistent and responsive design across devices with Tailwind CSS utilities.
+* Unsplash Images: High-quality images sourced from Unsplash for visual appeal.
