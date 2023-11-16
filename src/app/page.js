@@ -16,7 +16,7 @@ export default function Home() {
       <div id="services">
         <Services />
       </div>
-      <div id="team">
+      <div id="doctors">
         <Team />
       </div>
       <div id="contact">

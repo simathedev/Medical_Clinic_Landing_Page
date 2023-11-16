@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import styles from './style.module.scss';
 import {motion} from 'framer-motion';
+import { FaHandHoldingMedical,FaDna,FaHeartbeat } from "react-icons/fa";
 
 
 function index() {
@@ -18,15 +19,23 @@ function index() {
               height={100}
               className={styles.productImage}
             />
-        <p className={`${styles.aboutDescription}  xs:py-4 sm:py-4 md:py-0 lg:py-0 xl:py-0 px-5`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas magni repellendus dolorem sint, facere natus fugiat facilis beatae ab vero?</p>
-        </div>
+              <div className='flex flex-col items-center text-center mt-[1.5rem]'>
+              <FaHandHoldingMedical />
+              <h1 className={`${styles.descriptionTitle} py-4 text-[1.2rem]  `}>Expert Care Tailored</h1>
+        <p className={`${styles.aboutDescription}  xs:py-4 sm:py-4 md:py-0 lg:py-0 xl:py-0 px-5`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas magni repellendus dolorem sint, facere natus fugiat facilis beatae ab vero.</p>
+              </div>
+          </div>
         <div className={`${styles.aboutContainer} xs:w-[80%] sm:w-[80%] md:w-full lg:w-[70%] xl:w-[70%] bg-[#2a6f97] shadow-xl xs:flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row xs:my-4 sm:my-2 md:my-0 lg:my-0 xl:my-0`}>
+       <div className='flex flex-col items-center text-center mt-[1.5rem]'>
+       <FaDna />
+       <h1 className={`${styles.descriptionTitle} py-4 text-[1.2rem] `}>Advanced Technology Integration</h1>
         <p className={`${styles.aboutDescription} xs:py-4 sm:py-4 md:py-0 lg:py-0 xl:py-0 px-5`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolores provident repudiandae saepe maxime nobis quis sunt perferendis temporibus corrupti.</p>
-        <Image
+       </div>
+       <Image
               src={`/images/about5.jpg`}
               alt={`alt images`}
-              width={400} // Adjust width as needed
-              height={200} // Adjust height as needed
+              width={400} 
+              height={200} 
               className={styles.productImage}
             />
         </div>
@@ -34,12 +43,16 @@ function index() {
         <Image
               src={`/images/about2.jpg`}
               alt={`alt images`}
-              width={400} // Adjust width as needed
-              height={200} // Adjust height as needed
+              width={400} 
+              height={200}
               className={styles.productImage}
             />
-        <p className={`${styles.aboutDescription}  xs:py-4 sm:py-4 md:py-0 lg:py-0 xl:py-0 px-5`}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam doloremque cupiditate modi quidem iusto dicta nisi beatae, optio similique distinctio nemo alias delectus minus quas ipsam eveniet officia excepturi quisquam?</p>
-        </div>
+            <div className='flex flex-col items-center text-center  mt-[1.5rem]'>
+            <FaHeartbeat />
+            <h1 className={`${styles.descriptionTitle} py-4 text-[1.2rem]`}>Holistic Wellness Care</h1>
+        <p className={`${styles.aboutDescription}  xs:py-4 sm:py-4 md:py-0 lg:py-0 xl:py-0 px-5`}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam doloremque cupiditate modi quidem iusto dicta nisi beatae.</p>
+            </div>
+       </div>
         </div>
     </div>
   )

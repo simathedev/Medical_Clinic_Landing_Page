@@ -1,11 +1,12 @@
 .main{
    // border:1px solid red;
     justify-content: space-around;
-    min-height:22vh;
+    min-height:25vh;
     display:flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top:1rem;
 }
 .menuContainer{
     //border:1px solid blue;
@@ -29,6 +30,7 @@
     padding:10px 15px;
     border-radius:10px;
     border:1px solid #014f86;
+    max-height:210px;
 }
 .itemContainerMain:hover{
     border:3px solid #014f86;
